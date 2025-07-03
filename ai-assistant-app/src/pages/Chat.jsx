@@ -16,7 +16,6 @@ const Chat = () => {
 
     try {
       const res = await sendQuery(query);
-      console.log(res);
       setMessages((prev) => [
         ...prev,
         { role: "ai", content: res.response || "No response." },
