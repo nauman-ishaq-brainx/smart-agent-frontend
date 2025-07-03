@@ -1,0 +1,18 @@
+# Ignore node_modules from both root and React app (just in case)
+node_modules/
+ai-assistant-app/node_modules/
+
+# Ignore build output
+ai-assistant-app/build/
+
+# Ignore environment files
+.env
+ai-assistant-app/.env
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# VS Code
+.vscode/
